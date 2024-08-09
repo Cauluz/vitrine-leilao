@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.botao {
+  border-bottom: 2px solid #b8872d;
+}
+
+.botao a {
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffbe43;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  text-decoration: none;
+}
+.botao a:hover {
+  color: #b8872d;
+}
+
+/* sobre */
+.img1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-basis: 130px;
+}
+
+.img2 {
+  flex: 1;
+  display: flex;
+  align-items: end;
+  flex-basis: 130px;
+}
+
+.img1 img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img2 img {
+  width: 100%;
+}
+
+h1 {
+  color: #ffbe43;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 80vh;
+  gap: 10px;
+  /* margin: 20px 0; */
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+  flex-basis: 400px;
+}
+.texto p {
+  color: #ffffff;
+  text-align: center;
+
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+span {
+  color: #ffbe43;
+}
+
+.missao {
+  margin: 20px 0;
+}
+
+.rodape {
+  background-image: url(/img/rodape.png);
+  background-repeat: repeat-x;
+  background-size: auto;
+  height: 90px;
+  width: 100%;
+}
+
+/* conselho */
+
+.conselho {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.foto-1 {
+  margin: 20px 30px;
+}
+
+.foto-2 {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 300px;
+}
+
+.foto2 {
+  width: 80%;
+  border-radius: 8px;
+}
+
+.coluna {
+  flex: 1;
+  flex-basis: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coluna div img {
+  width: 100%;
+}
+.texto2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.texto2 p {
+  padding: 10px;
+}
+
+/* contato */
+
+.contato {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.titulo {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  font-size: 30px;
+}
+
+.logo3 {
+  flex: 1;
+  flex-basis: 300px;
+  margin: auto 40px;
+}
+
+.social {
+  flex: 1;
+  flex-basis: 300px;
+}
+
+.doacao {
+  flex: 1;
+  flex-basis: 300px;
+  padding: 10px 20px;
+}
+
+.informacao {
+  flex: 1;
+  flex-basis: 300px;
+}
+
+.imagem {
+  display: flex;
+  height: 300px;
+  justify-content: end;
+  border-bottom: 2px solid #b8872d;
+}
+
+.redes {
+  background-image: url(/img/rodape.png);
+  background-repeat: repeat-x;
+  height: 150px;
+  width: 100%;
+}
+
+.contato div img {
+  width: 100%;
+}
+
+.borda {
+  border-bottom: 2px solid #b8872d;
+}
+
+@media (max-width: 576px) {
+  .sobre {
+    height: auto;
+  }
+
+  .img1,
+  .img2 {
+    margin: 20px 0;
+  }
+}
